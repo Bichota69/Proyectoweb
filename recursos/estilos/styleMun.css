@@ -31,8 +31,13 @@
     position: relative;
     color: white;
 }
+/* divs */
+.centrar{
+    width: 1000px;
+    margin: 0 auto;
+}
 /*fondo*/
 .fondoHuellitas{
-    background-color: #9461a4;
+    background-color: #44355e;
     
 }
