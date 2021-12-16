@@ -17,27 +17,27 @@
     font-size:100px;
     position: relative;
     text-align: center;
-    color: white;
+    color: #538eb6;
 }
 .fuenteSubtitulos{
     font-family: "love";
-    font-size:60px;
+    font-size:30px;
     position: relative;
     color: white;
 }
 .fuenteParrafos{
     font-family: "love";
-    font-size:25px;
+    font-size:20px;
     position: relative;
     color: white;
 }
-/* divs */
+/* texto */
 .centrar{
-    width: 1000px;
+    
     margin: 0 auto;
 }
 /*fondo*/
 .fondoHuellitas{
-    background-color: #44355e;
+    background-color: rgb(38, 52, 71);
     
 }
