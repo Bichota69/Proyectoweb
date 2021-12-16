@@ -57,6 +57,10 @@ font-family: "love";
 }
 /*fondo*/
 .fondoHuellitas{
-    background-color: rgb(38, 52, 71);
     
+    
+    background-image: url(/recursos/imagenes/gatoMorado.jpg);
+    background-repeat: repeat-y repeat-x;
+    background-size: 30rem;
+      
 }
