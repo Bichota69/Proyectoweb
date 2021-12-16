@@ -10,7 +10,11 @@
 /* fuente */
 @font-face {
     font-family: "love";
-    src: url(/recursos/fuentes/love_3/Love.ttf);
+    src: url(/recursos/fuentes/Love.ttf);
+}
+@font-face {
+    font-family: "redonda";
+    src: url(/recursos/fuentes/Poppins-Medium.ttf);
 }
 .fuenteTitulo{
     font-family: "love";
@@ -20,14 +24,14 @@
     color: #538eb6;
 }
 .fuenteSubtitulos{
-    font-family: "love";
-    font-size:30px;
+font-family: "love";
+    font-size:35px;
     position: relative;
     color: white;
 }
 .fuenteParrafos{
-    font-family: "love";
-    font-size:20px;
+    font-family: "redonda";
+    font-size:18px;
     position: relative;
     color: white;
 }
