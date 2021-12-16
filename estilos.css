@@ -1,13 +1,14 @@
 
 body{
     background-image: url(fondo.jpeg);
-    /*background-repeat: no-repeat;
-    background-size: cover;*/
+   
+    
         
 }
 
 a{   text-decoration:none;
-    color:rgb(212, 0, 0);
+    color:rgb(0, 0, 0);
+   
 }
 
 a:hover{
@@ -22,11 +23,10 @@ a:hover{
 }
 /*Header*/
 header{
-    
     width: 100%;
     float: left;
     @font-face
-    font-family: sourcesans;
+    font-family: center;
     background: #ffc2c2; /* Old browsers */
     border-radius: 20px;
     box-shadow: 0px 3px 5px #000;
@@ -34,7 +34,8 @@ header{
 
 #subheader{
     width: 960px;
-    margin: auto;
+    margin: auto ; 
+    
     
 }
 
@@ -47,7 +48,7 @@ header{
 }
 
 #logotipo a{
-    font-family:sourcesans;
+    font-family:'Courier New', Courier, monospace;
     font-size: 50px;
     color: #000;
     
@@ -69,8 +70,8 @@ header #subheader nav{
 
 header #subheader nav ul li{
     display: inline;/*elemtos mostrados en linea*/
-    font-family: sourcesans;
-     
+    font-family:'Courier New', Courier, monospace ;
+    
     
 }
 
@@ -83,7 +84,7 @@ header #subheader nav ul li a {
 }
 
 header #subheader nav ul li a:hover{
-    color:rgb(248, 248, 248);
+    color:rgb(0, 0, 0);
     background: #787e80;
     text-decoration: none;
 }
@@ -95,45 +96,65 @@ header #subheader nav ul li a:hover{
     width: 100%;
     margin: 20px 0px 0px 0px;
     float: left;
+    font-family: cursive;
 }
 
 
-/*slideshow*/
 
 
-/*bienbenidos*/
+/*bienvenidos*/
 
 #bienvenidos{
-    width: 920px;
-    float: left;
-    padding: 20px;
-    
-        background: #ffc2c2; /* Old browsers */
-         margin: 20px 10px;
-        border-radius: 5px;
-        box-shadow: 0px 2px 2px #000;/*Sombra*/
+     width: 920px;
+     float: left;
+     padding: 20px;
+     background: #ffc2c2; /* Old browsers */
+     margin: 20px 10px;
+     border-radius: 20px;
+     box-shadow: 0px 3px 5px #000;/*Sombra*/
+     font-family: cursive;
+
      
 }
 
 #bienvenidos article h2{
-    font-family: sourcesans-light;
-    color:white;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
     margin-bottom: 10px;
     }
 
 #bienvenidos article {
-    color:white;
+    color:rgb(0, 0, 0);
     line-height: 27px;
+
 }
+#bienvenidos article .fecha{
+    
+    font-size: 15px;/*tamaño de letra*/
+    color:#cc88e0;
+    margin-bottom: 5px;/*margen hacia abajo*/
+}
+
 
 /*Contenido*/
 
 #contenido{
-    width: 700px;
+    width: 920px;
     float: left;
+    padding: 20px;
+    @font-face
+    font-family:'Courier New', Courier, monospace;
+    background: #ffc2c2; /* Old browsers */
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #000;
+   /* width: 700px;*/
+    /*float: left;*/
+    }
+
     
-}
+    
+
 
 #contenido article{
     float: left;
@@ -142,7 +163,7 @@ header #subheader nav ul li a:hover{
 
 #contenido article .titulo{
     font-size: 22px;
-    font-family: sourcesans;
+    font-family: 'Courier New', Courier, monospace;
     color:white;
     
 }
@@ -170,7 +191,7 @@ header #subheader nav ul li a:hover{
 }
 
 #contenido article >p{
-    color: #ff0000;
+    color: #000000;
     font-size:14px;
     text-align: justify;
     line-height: 27px;/*espaciando entre cada linea*/
@@ -178,9 +199,9 @@ header #subheader nav ul li a:hover{
 
 /*Sidebar*/
 aside {
-    width: 2200px;
+    width: 220px;
     float: left;
-    margin-left: 200px;
+    margin-left: 20px;
     background: #989ca1;
     padding: 10px 10px 0px 10px;/* arriva-px  derecha-px abajo-px izquierda-px*/   
     border-radius: 5px;/*borde poniendo radios*/
