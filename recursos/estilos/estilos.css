@@ -1,6 +1,7 @@
 
 body{
     background-image: url(fondo.jpeg);
+    font-family: 'Courier New', Courier, monospace;
    
     
         
@@ -12,7 +13,7 @@ a{   text-decoration:none;
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration:overline;
 }
 
 #wrap{
@@ -27,7 +28,7 @@ header{
     float: left;
     @font-face
     font-family: center;
-    background: #ffc2c2; /* Old browsers */
+    background: #e1aeeb; /* Old browsers */
     border-radius: 20px;
     box-shadow: 0px 3px 5px #000;
     }
@@ -148,6 +149,7 @@ header #subheader nav ul li a:hover{
     margin: 20px 10px;
     border-radius: 20px;
     box-shadow: 0px 3px 5px #000;
+    text-align: justify;
    /* width: 700px;*/
     /*float: left;*/
     }
@@ -165,13 +167,14 @@ header #subheader nav ul li a:hover{
     font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
     color:white;
+    text-align: justify;
     
 }
 
 #contenido article .fecha{
     
     font-size: 15px;/*tamaño de letra*/
-    color:#1798af;
+    color:#cc88e0;
     margin-bottom: 5px;/*margen hacia abajo*/
 }
 
@@ -185,9 +188,9 @@ header #subheader nav ul li a:hover{
 .thumb{ /*imagen formato*/
     width: 220px; /*largo*/
     height: 150px;/*ancho*/
-    float: left;/*elementos a la izquierda*/
+    float: right;/*elementos a la izquierda*/
     margin: 0px 10px 10px 0px;
-    
+    border-radius: 20px;
 }
 
 #contenido article >p{
@@ -199,14 +202,18 @@ header #subheader nav ul li a:hover{
 
 /*Sidebar*/
 aside {
-    width: 220px;
-    float: left;
-    margin-left: 20px;
-    background: #989ca1;
-    padding: 10px 10px 0px 10px;/* arriva-px  derecha-px abajo-px izquierda-px*/   
-    border-radius: 5px;/*borde poniendo radios*/
-    box-shadow: 0px 2px 2px #000; /* derecha-px abajo-px izquierda-px #color */
+ 
     
+    width: 920px;
+    float: left;
+    padding: 20px;
+    @font-face
+    font-family:'Courier New', Courier, monospace;
+    background: #aef6ff; /* Old browsers */
+    margin: 2px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #000;
+    text-align:justify;
 }
 
 aside .widget{
@@ -216,8 +223,8 @@ aside .widget{
 }
 
 aside .widget>h3{
-    background: white;
-    color: #4d78b3;
+   
+    color: #000000;
     width: 220px;
     padding: 10px 0px;
     text-align: center;
@@ -228,10 +235,49 @@ aside .widget>h3{
 
 
 aside .widget{
-    color: white;
+    color: rgb(245, 164, 211);
 }
 
 aside .widget ul li{
     margin-bottom: 5px;
     font-size: 15px;
+}
+#acerca-de {
+    width: 920px;
+    float: left;
+    padding: 20px;
+    background: #fffeba; /* Old browsers */
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #000;/*Sombra*/
+    font-family: cursive;
+
+}
+#redes-s{
+    width: 920px;
+    float: left;
+    padding: 20px;
+    background: #fffeba; /* Old browsers */
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #000;/*Sombra*/
+    font-family: cursive;
+
+    
+}
+#redes-s article .titulo{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+}
+#copyright{
+    width: 920px;
+    float: left;
+    padding: 20px;
+    background: #fffeba; /* Old browsers */
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #000;/*Sombra*/
+    font-family: cursive;
 }
