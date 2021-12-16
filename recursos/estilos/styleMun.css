@@ -1,0 +1,38 @@
+/*Se reinicia el estilo*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+/* fuente */
+@font-face {
+    font-family: "love";
+    src: url(/recursos/fuentes/love_3/Love.ttf);
+}
+.fuenteTitulo{
+    font-family: "love";
+    font-size:100px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.fuenteSubtitulos{
+    font-family: "love";
+    font-size:60px;
+    position: relative;
+    color: white;
+}
+.fuenteParrafos{
+    font-family: "love";
+    font-size:25px;
+    position: relative;
+    color: white;
+}
+/*fondo*/
+.fondoHuellitas{
+    background-color: #9461a4;
+    
+}
