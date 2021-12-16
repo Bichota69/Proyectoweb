@@ -21,7 +21,7 @@
     font-size:100px;
     position: relative;
     text-align: center;
-    color: #538eb6;
+    color: #000000;
 }
 .fuenteSubtitulos{
 font-family: "love";
@@ -39,6 +39,15 @@ font-family: "love";
 .centrar{
     
     margin: 0 auto;
+}
+
+.titulo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(126, 87, 194); 
+    border-radius: 20px;
+    position: center;
 }
 /*fondo*/
 .fondoHuellitas{
