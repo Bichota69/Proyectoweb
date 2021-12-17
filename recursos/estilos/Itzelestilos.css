@@ -1,0 +1,97 @@
+@font-face {
+
+    font-family: fuenteCode; /*Nombre con el cual llamare a mi fuente*/
+
+    src: url(/Recursos/Fuente/typewcond_regular.otf);/*Ruta donde esta la fuente*/
+
+    }
+
+    .fondoimagen{
+        background-image: url();
+        width: 100%;
+        background-repeat:no-repeat;
+        text-align: center;
+        background-size: 10rem;/*Tamaño especifico de las imagenes de fondo*/
+        padding: 30px;
+    }
+
+body{
+    background-image: url(Fondo.jpg);
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: #ffc7ff ;   
+    font-family: sans-serif;
+    padding: 5em;
+
+}
+
+
+.fondoblanco{
+    background-color: rgb(231, 129, 134);
+}
+
+.fondoazul{
+    background-color: rgb(255, 151, 151);
+
+}
+
+.fondonegro{
+    background-color: rgb(200, 58, 177);
+
+}
+
+.texto1{
+
+        text-align: center;
+        font-size: 5em;
+        color: rgb(0, 0, 0);
+        font-family: cursive;
+}
+.texto2{
+
+    padding: 5px;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: cursive;
+
+
+}
+
+.texto3{
+
+    font-size: 1em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    font-family: cursive;
+
+}
+
+.texto4{
+
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: cursive;
+    padding-left:5px ;
+}
+
+.imagenEstilo{
+
+    width: 150px;
+    text-align: center;
+}
+
+
+
+.bordeblanco{
+    border: 10px solid white;
+    border-radius: 10px;
+
+}
+
+.separa{
+
+    padding: 1em;
+}
