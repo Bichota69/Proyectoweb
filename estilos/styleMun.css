@@ -10,11 +10,11 @@
 /* fuente */
 @font-face {
     font-family: "love";
-    src: url(/recursos/fuentes/Love.ttf);
+    src: url(recursos/fuentes/Love.ttf);
 }
 @font-face {
     font-family: "redonda";
-    src: url(/recursos/fuentes/Poppins-Medium.ttf);
+    src: url(recursos/fuentes/Poppins-Medium.ttf);
 }
 .fuenteTitulo{
     font-family: "love";
@@ -59,7 +59,7 @@ font-family: "love";
 .fondoHuellitas{
     
     
-    background-image: url(/recursos/imagenes/gatoMorado.jpg);
+    background-image: url(recursos/imagenes/gatoMorado.jpg);
     background-repeat: repeat-y repeat-x;
     background-size: 30rem;
       
