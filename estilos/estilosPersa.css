@@ -1,0 +1,78 @@
+body{
+    background-image: url(recursos/imagenes/fondo\ gatos.jpg);
+    background-repeat: repeat;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(recursos/fuentes/ROMANUS.otf);
+}
+
+.fuenteTítulo{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: fuente1;
+}
+
+
+.fondoblanco{
+    background-color: whitesmoke
+}
+
+.fondoamarillo{
+    background-color: rgb(254, 225, 106);
+}
+
+
+.tamaño100{
+    width: 100%;
+}
+
+
+.imagen30{
+    width: 30%;
+    text-align: center;
+}
+
+.imagen80{
+    width: 80%;
+    text-align: center;
+}
+
+.imagenMediana{
+    width: 250px;
+    height: 187px;
+}
+
+
+.letra20px{
+    font-size: 20px;
+}
+
+
+.paddingTabla{
+    padding-top: 1em;
+    padding-left: 19em;
+    padding-right: 19em;
+}
+
+.borde{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bordeGrande{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.bordeMedio{
+    padding: 40px;
+}
+
+.paddingCorto{
+    padding-top: 1em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
