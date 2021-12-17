@@ -9,7 +9,7 @@ a{   text-decoration:none;
 }
 
 a:hover{
-    text-decoration:rebeccapurple;
+    text-decoration: underline;
 }
 
 #wrap{
@@ -22,7 +22,6 @@ a:hover{
 header{
     width: 100%;
     float: left;
-    @font-face
     font-family: center;
     background: #e1aeeb; /* Old browsers */
     border-radius: 20px;
@@ -216,19 +215,24 @@ aside {
 }
 
 aside .widget{
-    
+    text-align: left;
+
     margin-bottom: 1px;
     float: left;
+    font-size: 30px;
 }
 
 aside .widget>h3{
    
     color: #000000;
-    width: 220px;
+    width: 520px;
     padding: 10px 0px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 10px;
+   
+    background-size: 30rem;
+    font-size: 30px;
  
     
 }
@@ -236,11 +240,5 @@ aside .widget>h3{
 
 aside .widget{
     color: rgb(245, 164, 211);
-}
-
-aside .widget ul li{
-    margin-bottom: 5px;
-    font-size: 20px;
-    
-
+font-size: 50;
 }
