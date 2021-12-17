@@ -1,10 +1,6 @@
 
 body{
-    background-image: url(fondo.jpeg);
-    font-family: 'Courier New', Courier, monospace;
-   
-    
-        
+    background-image: url(fondo.jpeg);        
 }
 
 a{   text-decoration:none;
@@ -13,7 +9,7 @@ a{   text-decoration:none;
 }
 
 a:hover{
-    text-decoration:overline;
+    text-decoration:rebeccapurple;
 }
 
 #wrap{
@@ -155,9 +151,6 @@ header #subheader nav ul li a:hover{
     }
 
     
-    
-
-
 #contenido article{
     float: left;
     margin-bottom: 20px;
@@ -205,20 +198,26 @@ aside {
  
     
     width: 920px;
-    float: left;
+    float: right;
     padding: 20px;
-    @font-face
     font-family:'Courier New', Courier, monospace;
     background: #aef6ff; /* Old browsers */
-    margin: 2px 10px;
-    border-radius: 20px;
+   border-radius: 20px;
     box-shadow: 0px 3px 5px #000;
-    text-align:justify;
+   
+}
+.thumb{ /*imagen formato*/
+    width: 220px; /*largo*/
+    height: 150px;/*ancho*/
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 0px 0px 15555px 0px;
 }
 
 aside .widget{
     
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     float: left;
 }
 
@@ -230,6 +229,7 @@ aside .widget>h3{
     text-align: center;
     font-weight: bold;
     margin-bottom: 10px;
+ 
     
 }
 
@@ -240,44 +240,7 @@ aside .widget{
 
 aside .widget ul li{
     margin-bottom: 5px;
-    font-size: 15px;
-}
-#acerca-de {
-    width: 920px;
-    float: left;
-    padding: 20px;
-    background: #fffeba; /* Old browsers */
-    margin: 20px 10px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 5px #000;/*Sombra*/
-    font-family: cursive;
-
-}
-#redes-s{
-    width: 920px;
-    float: left;
-    padding: 20px;
-    background: #fffeba; /* Old browsers */
-    margin: 20px 10px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 5px #000;/*Sombra*/
-    font-family: cursive;
-
+    font-size: 20px;
     
-}
-#redes-s article .titulo{
-    font-size: 22px;
-    font-family: 'Courier New', Courier, monospace;
-    color:rgb(0, 0, 0);
-    text-align: justify;
-}
-#copyright{
-    width: 920px;
-    float: left;
-    padding: 20px;
-    background: #fffeba; /* Old browsers */
-    margin: 20px 10px;
-    border-radius: 20px;
-    box-shadow: 0px 3px 5px #000;/*Sombra*/
-    font-family: cursive;
+
 }
