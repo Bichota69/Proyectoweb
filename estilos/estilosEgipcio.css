@@ -1,0 +1,71 @@
+@font-face {
+    font-family: fuente1;
+    src: url(recursos/fuentes/Egyptian.ttf);
+}
+
+@font-face {
+    font-family: fuente2;
+    src: url(recursos/fuentes/coolvetica\ rg.otf);
+}
+
+body{
+    background-image: url(recursos/imagenes/fondoRosa.jpg);
+    background-repeat: repeat;
+}
+
+.tipografia{
+    font-family: fuente1;
+    font-size: 200px;
+    text-align: center;
+    color: darksalmon;
+}
+
+.tipografia2{
+    font-family: fuente2;
+    font-size: 30px;
+}
+
+.tipografia3{
+    font-family: fuente2;
+    font-size: 50px;
+    color: violet;
+    text-align: center;
+}
+
+.tipografia4{
+    font-family: fuente2;
+    font-size: 30px;
+    background-color: slateblue;
+}
+
+.alineadoMorado{
+    text-align: center;
+    color: slateblue;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.centrarTexto{
+    text-align: center;
+    font-size: 100px;
+}
+
+.center3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
