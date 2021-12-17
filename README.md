@@ -10,7 +10,7 @@ Carlos López
 
 Axel López
 
-Itzel Ramiréz 
+Itzel Ramírez 
 
 Erik Reyes 
 
